@@ -1,0 +1,24 @@
+{
+  "name": "ambivalent",
+  "version": "0.0.1",
+  "description": "A lifx ambilight like controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "lifx",
+    "ambilight"
+  ],
+  "author": "Ross Kelly",
+  "license": "MIT",
+  "devDependencies": {
+    "deskgap": "^0.2.0",
+    "semistandard": "^14.2.0"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "lifx-lan-client": "^1.0.2",
+    "windows-desktop-duplication": "^1.0.0"
+  }
+}
